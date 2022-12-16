@@ -11,7 +11,7 @@ A minimalist Outlook web add-in to replicate a bug in the Office dialog API.
 5. Use the file picker to select the manifest file saved to your local machine in step one.
 6. Click "Install"
 
-## Using the add-in to replicate the bug
+### Using the add-in to replicate the bug
 1. Select an email from your inbox, and click the ellipses on the _MessageReadCommandSurface_ extension point (upper right corner of the item view).
 2. Click "Dialog API Bug Demo" from the dropdown menu.
 3. This will open a dialog box with two buttons, "Cancel" and "Move Message to Junk"
