@@ -1,5 +1,3 @@
-const PROMPT_URL = "https://andrewlamansky.github.io/Dialog-API-Bug/Prompt.html";
-
 Office.initialize = function () { };
 
 try {
@@ -8,10 +6,13 @@ try {
     console.log("Unable to call 'Office.actions.associate'", e);
 };
 
+const PROMPT_URL = "https://andrewlamansky.github.io/Dialog-API-Bug/Prompt.html";
+let clickEvent;
+let dialog;
+
 // entry point
 function main(event) {
-    let clickEvent = event;
-    let dialog;
+    clickEvent = event;
     openDialog();
     return;
 }
